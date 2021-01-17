@@ -77,13 +77,3 @@ function zbrent(x1::Float64, x2::Float64, FUNC::Function; itmax=200, tol=√eps(
     println("Maximum number of iterations reached.")
     return xmin
 end
-
-
-## Example and comparizon with the Brent Root Finding method of Roots.jl
-# lxa, lxb = 1.e-8, 1.
-# a, b, c, fc = mnbrak(lxa, lxb, x -> fngridtrans(x, true))
-# @time br1 = zbrent(a, c, x -> fngridtrans(x, true))
-# isapprox(fngridtrans(br1, true), 0.0, atol=√eps(Float64))
-# using Roots
-# @time br2 = find_zero(x -> fngridtrans(x, true), (a, c), Roots.Brent())
-# isapprox(br1, br2)

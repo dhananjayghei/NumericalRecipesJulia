@@ -71,18 +71,3 @@ function mnbrak(ax::Float64, bx::Float64, FUNC::Function)
     end
     return ax, bx, cx, fc
 end
-
-
-# aa, bb, cc, ff = mnbrak(lxa, lxb, x -> fngridtrans(x, true))
-# res = optimize(x -> fngridtrans(x, true), aa, cc, GoldenSection())
-#
-# resInit = optimize(x -> fngridtrans(x, true), lxa, lxb, Brent())
-#
-# using Roots
-#
-# dd = find_zero(x -> fngridtrans(x, true), (aa, cc))
-# ## Define a function with remaining arguments as given using the following notation
-# g = x -> fngridtrans(x, true)
-#
-# res = mnbrak(lxa, lxb, x-> fngridperm(x, true))
-# lfval = golden(res[1], res[2], res[3], x->fngridperm(x, true))

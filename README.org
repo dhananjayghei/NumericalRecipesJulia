@@ -12,7 +12,6 @@ Usage of the algorithms can be found in the [[dir:examples/][examples/]] sub-dir
 |----------------------------+------------------------------|
 | Description                | Numerical Recipes in Julia   |
 | Julia Version              | 1.5.3                        |
-| Julia Package Requirements | LinearAlgebra, Distributions |
 | Author                     | Dhananjay Ghei               |
 |                            |                              |
 

@@ -3,10 +3,10 @@
 This repo contains the numerical recipes for optimization
 and root finding algorithms from the Press et. al. (1992) book. 
 
-All the algorithms are present in the [[dir:src/][src/]] sub-directory with the same
+All the algorithms are present in the [[file:src/][src/]] sub-directory with the same
 name as in the book. 
 
-Usage of the algorithms can be found in the [[dir:examples/][examples/]] sub-directory.
+Usage of the algorithms can be found in the [[file:examples/][examples/]] sub-directory.
 
 |                            |                              |
 |----------------------------+------------------------------|
